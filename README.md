@@ -1,3 +1,6 @@
 # Two-Stage-Miller-Compensated-Opamp
-Design of Opamp in 90nm with its layout DRC and LVS cleared.\n
-hello 
+Design of Opamp in 90nm with its layout DRC and LVS cleared.                  
+
+This is my first major project in cadence 
+
+
