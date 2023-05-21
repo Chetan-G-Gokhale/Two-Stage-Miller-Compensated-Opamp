@@ -13,10 +13,10 @@ ICMR(+)= 1.0 V <br>
 ICMR(-)= 300 mV <br>
 Vdc = 1.2 V <br>
 Cl (Load Capacitance) = 1pF <br>
-Node library : gpdk90 <br>
 
 
-#### Note : The calcualtions obtained were mostly kept the same but was altered in some cases to match the required specification, But it is ensured that the changes              made doesnot effect the stability of the opamp.
+
+#### Note : The calcualtions obtained were mostly kept the same but was altered in some cases to match the required specification, But it was ensured that the                   changes made doesnot effect the stability of the opamp.
 
 
 
