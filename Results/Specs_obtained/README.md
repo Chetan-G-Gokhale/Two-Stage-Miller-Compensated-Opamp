@@ -1,4 +1,4 @@
-## Specifications Obtained
+# Final Specifications
 
 ## Circuit Diagram
 
@@ -52,4 +52,82 @@ With the help of AC analysis we can see that with greater load the gain remains 
  <br>
   
   #### Conclusion:  If we increase the capacitive load of the opamp then frequency of operation may decrease but opamp wouldnt become unstable this is due      regenerative resistor added in feedback
+  
+  # Slew Rate 
+  
+  Slew rate is one of the major characteristics of opamp , In an ideal opamp the slew rate is infinite however it is not possible for a infinite
+  slew rate in pratical cases. <br>
+  To find the slew rate first we need to implement a regular voltage follower as shown below  :
+  <br>
+  <p align="center">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7079777f-fed8-4982-b1b1-391da57d171a">
+</p>
 
+
+
+ 
+  <br>
+  
+  We can find the slew rate of opamp with the help of transient analysis by calculating the rate of change of output with the help of waveforms obtained 
+  <br>
+  <p align="center">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/d52a9160-5d2b-4115-af85-9ce9bbaa3e13">
+</p>
+ 
+
+  
+  
+  <br>
+  
+  **Slew rate = dVo/dt**
+  
+  
+  **Slew rate = 999 mV/111 n S  = 9 V/uS**
+ 
+  
+   #### Therefore the obtained slew rate of the opamp was found out to be 9 V/uS which is extremely close to that of the our designed specification of 10 V/uS
+   
+   
+   # CMRR (Common Mode Rejection Ratio)
+   
+   CMRR is ability of the opamp to reject common mode signals , As common mode gain Av(Cm)=0 the CMRR is ideally infinite 
+   **CMRR is given by CMRR= Av(DM)/Av(Cm)
+      ie (Differrential Mode gain to that of Common mode gain)**
+      
+  **CMRR(db)= log(Av(DM))-log(Av(CM)) (db)**
+  
+  <br>
+  
+  As we know the diifferntial mode gain of opamp was found out to be 68db, we can find the common mode gain by providing the same input to both
+  the terminals of the Opamp.
+  <br>
+
+  <p align="center">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/d87f95e5-cc9e-40b9-b785-20d1489b6044">
+</p>
+ 
+
+<p align="center">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/d9351dcd-0bcf-4e9d-88fd-1e8f9a4fe3f5">
+</p>
+
+
+ 
+  <br>
+  From the above diagram is noted that Common mode gain AV(Cm)=-14db 
+  <br>
+  Therefore
+  <br>
+  
+  **CMRR = 68.4-(-14.3)
+  CMRR = 82.7 db**
+  
+  #### Therefore the Common mode rejection ratio was found out to be 83 db which is pretty good, Ensuring that it rejects common mode signals to good extent
+  
+ 
+   
+   
+   
+   
+
+   
