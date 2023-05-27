@@ -21,9 +21,14 @@ It is such that both of the transistor undergo same mismatch so that they remain
 <br>
 <br>
 
-The differntial pair was surrounded by a P-tap Guard Ring Across it , and was ensured symmetricity was maitained throughout the Common Centriod block
+The differntial pair was surrounded by a P-tap Guard Ring Across it and waas connected to VDD , and was ensured symmetricity was maitained throughout the Common Centriod block. <br>
+Dummy transistors were surrounded across the differential pairs on both of the axis, to further protect from process variation.
+<br>
 
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/20c46a97-658f-49af-b1e2-399d5d9bcabb" width="500"/>
 
+<br>
+<br>
 
 ### Interdigitation
 
@@ -39,4 +44,22 @@ If $ is considered as the process variation which occurs as Guass distribution ,
 process varation of 14$.
 <br.
 
-The PMOS current mirror was surrounded by Ntap guard ring and NMOS current mirror was surrounded by Ptap Guard Ring and was ensured that symmetricity was maintained across it.
+The PMOS current mirror was surrounded by Ntap guard ring and NMOS current mirror was surrounded by Ptap Guard Ring and was ensured that symmetricity was maintained across it. <br>
+Dummy transistors were added at the end of each of side of the current mirrorsto further protect from process variation
+
+#### PMOS current mirror
+
+
+
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/dc779fc2-efa3-450a-8259-5cf867c70fd4" width="1000" height="230">
+
+<br>
+
+#### NMOS current mirror
+
+<br>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/29abd362-3c08-4251-8b81-28ed30f1d436)" width="1000"/>
+
+
+
+
