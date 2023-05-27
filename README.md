@@ -22,7 +22,7 @@ Table of contents
 =================
 
 <!--ts-->
-   * [SPECIFICATIONS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#the-design-specifications-of-opamp)
+   * [SPECIFICATIONS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/main#design-specification-of-opamp)
    * [CIRCUIT ANALYSIS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/a7e6dc1db5b0d7c6e0652ee6a39ef51033dff6da/Circuit_Analysis)
       * [DIFFERENTIAL PAIR](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/a7e6dc1db5b0d7c6e0652ee6a39ef51033dff6da/Circuit_Analysis/Differential_pairs)
       * [CURRENT MIRROR](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/a7e6dc1db5b0d7c6e0652ee6a39ef51033dff6da/Circuit_Analysis/Current_mirror)
