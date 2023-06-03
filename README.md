@@ -15,19 +15,19 @@ Table of contents
 =================
 
 <!--ts-->
-   * [SPECIFICATIONS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#design-specification-of-opamp)
+   * [SPECIFICATIONS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#design-specification-of-opamp)
    * [RESULTS](#public)
-       * [CIRCUIT DIAGRAM](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#circuit-diagram)
-       * [GAIN AND PHASE MARGIN](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#gain-and-phase-margin)
-       * [SLEW RATE](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#slew-rate)
-       * [CMRR](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#cmrr-common-mode-rejection-ratio)
-       * [APPLICATIONS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#some-application-using-op-amp)
-       * [FINAL SPECS OBTAINED](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#final-specification-obtained)
+       * [CIRCUIT DIAGRAM](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#circuit-diagram)
+       * [GAIN AND PHASE MARGIN](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#gain-and-phase-margin)
+       * [SLEW RATE](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#slew-rate)
+       * [CMRR](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#cmrr-common-mode-rejection-ratio)
+       * [APPLICATIONS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#some-application-using-op-amp)
+       * [FINAL SPECS OBTAINED](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#final-specification-obtained)
    * [LAYOUT](#public)
-     * [COMMON CENTROID](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#common-centriod)
-     * [INTERDIGITATION](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#interdigitation)
-     * [DRC AND LVS CHECK](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#drc-and-lvs-check)
-     * [FINAL LAYOUT](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/edit/main/README.md#final-layout)
+     * [COMMON CENTROID](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#common-centriod)
+     * [INTERDIGITATION](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#interdigitation)
+     * [DRC AND LVS CHECK](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#final-layout)
+     * [FINAL LAYOUT](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#drc-and-lvs-check)
     <!--te-->
     
     
@@ -44,7 +44,7 @@ Cl (Load Capacitance) = 1pF <br>
 
     
 
-## Circuit Diagram
+# Circuit Diagram
 
  The final circuit of the opamp which includes all the differntial pair and current mirror dummy transistor which were used during the implementation of layout. <br>
  
@@ -237,7 +237,7 @@ Cl (Load Capacitance) = 1pF-5pF <br>
 In Analog circuits, designs are used like differential pairs and current mirrors, where the matching of device characteristics such as the threshold voltage Vt is important. <br>
 If device threshold differences of a few millivolts or less can determine the difference performance and yield of a design. Threshold voltage also varies due to the variations in the number of doping atoms or process variation. For that, we need to match the analog devices
 
-### Common Centriod 
+## Common Centriod 
 
 Common Centriod matching technique was used for the differntial pairs. It requires absolute symmetricity along both folded X and Y axis 
 of the layout.
@@ -264,7 +264,7 @@ Dummy transistors were surrounded across the differential pairs on both of the a
 <br>
 <br>
 
-### Interdigitation
+## Interdigitation
 
 Interdigitation matching techniques wre used for implementation of both NMOS and PMOS current mirrors, Interdigitation process ensures to
 Overcome come mismtach in single orientation axis 
@@ -295,13 +295,13 @@ Dummy transistors were added at the end of each of side of the current mirrorsto
 <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/29abd362-3c08-4251-8b81-28ed30f1d436)" width="1000"/>
 
 
-#### FINAL LAYOUT
+# FINAL LAYOUT
 
 
 <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/bc9b6b71-54fa-410d-8b36-153d54d1a07c)" width="1000"/>
     
     
-### DRC and LVS Check
+# DRC and LVS Check
 
 
 <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7394f472-a417-4711-bfcb-ceb9390d44f7)" width="1000"/>
