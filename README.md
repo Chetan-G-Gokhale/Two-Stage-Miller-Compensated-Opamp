@@ -26,8 +26,8 @@ Table of contents
    * [LAYOUT](#public)
      * [COMMON CENTROID](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#common-centriod)
      * [INTERDIGITATION](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#interdigitation)
-     * [DRC AND LVS CHECK](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#drc-and-lvs-check)
      * [FINAL LAYOUT](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#final-layout)
+     * [DRC AND LVS CHECK](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp#drc-and-lvs-check)
     <!--te-->
     
     
