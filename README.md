@@ -1,15 +1,17 @@
 # Two-Stage-Miller-Compensated-Opamp
 ### Design Of OPAMP in 90nm of gain 70db and its layout implementation with DRC and LVS Cleared             
 
-This is my first significant project in cadence, completed in my third year of BE. I advise you to watch "Nagendra Krishnapura" lectures from IITM  on "Analog IC Design" to gain a better grasp of the implementation. I learned about the fundamentals and significance of feedback systems in these lectures and designed a two stage opamp with Miller compensation and a nulling resistor.
+This is my first significant project in cadence, completed in my third year of BE. I advise you to watch "Prof Nagendra Krishnapura" lectures from IITM  on "Analog IC Design" to gain a better grasp of the implementation. I learned about the fundamentals and significance of feedback systems in these lectures and designed a two stage opamp with Miller compensation and a nulling resistor.
 
-For the design formulas of the transistors I referred to textbook by P. Allen and D. Holberg,"CMOS Analog Circuit Design",The Oxford Series in Electrical and Computer Engineering, 3rd ed. and some youtube series lectures from Hafeez KT
+For the design formulas of the transistors I referred to textbook by P. Allen and D. Holberg,"CMOS Analog Circuit Design",The Oxford Series in Electrical and Computer Engineering, 3rd ed these are easil available online
 
-I have given the complete detailed Circuit analysis of the opamp in the below folder
+I have given the complete detailed Circuit analysis of the opamp in the below folder --->
 
-[CIRCUIT ANALYSIS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/a7e6dc1db5b0d7c6e0652ee6a39ef51033dff6da/Circuit_Analysis) 
+ ## [CIRCUIT ANALYSIS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/a7e6dc1db5b0d7c6e0652ee6a39ef51033dff6da/Circuit_Analysis) 
 <br>
 <br>
+
+
 
 Table of contents
 =================
@@ -46,7 +48,7 @@ Cl (Load Capacitance) = 1pF <br>
 
 # Circuit Diagram
 
- The final circuit of the opamp which includes all the differntial pair and current mirror dummy transistor which were used during the implementation of layout. <br>
+ The final circuit of the opamp which includes all the differntial pair and current mirror including dummy transistors which were used during the implementation of layout. <br>
  
   
 <p align="center">
@@ -55,10 +57,12 @@ Cl (Load Capacitance) = 1pF <br>
 </p>
 <br>
 
+ ### Note: <br> Initially the phase margin obtained for 5pF was not in a satisfactory range. <br>  Therefore I added a resistor in feedback so it can bring back RHP Zero to some extent. <br> I decided the value of resistor by running a simple AC analysis. However,This is not a conventional method of designing a nulling resistor
+
 # Gain and Phase margin 
 
-The Gain obatined was around 68db with a Unity gain Bandwidth of 23M Hz for a load of Cl=1pf with a phase margin of 80 degrees which is pretty good comparing
-for designed specification: <br>
+The Gain obatined was around 68db with a Unity gain Bandwidth of 23M Hz for a load of Cl=1pf with a phase margin of 80 degrees which is pretty identical comparing
+for the designed specification: <br>
  **Av=68db**
  <br>
 **GBW=23M Hz**
@@ -95,8 +99,8 @@ With the help of AC analysis we can see that with greater load the gain remains 
   **Phase Margin =80 degree**
  <br>
   
-  #### Conclusion:  If we increase the capacitive load of the opamp then frequency of operation may decrease but opamp wouldnt become unstable this is due      regenerative resistor added in feedback
-  
+
+ 
   # Slew Rate 
   
   Slew rate is one of the major characteristics of opamp , In an ideal opamp the slew rate is infinite however it is not possible for a infinite
@@ -142,7 +146,7 @@ With the help of AC analysis we can see that with greater load the gain remains 
   
   <br>
   
-  As we know the diifferntial mode gain of opamp was found out to be 68db, we can find the common mode gain by providing the same input to both
+  As we know the diifferntial mode gain of opamp was found out to be 68db, we can find the common mode gain by providing the common input to both
   the terminals of the Opamp.
   <br>
 
@@ -268,7 +272,7 @@ Dummy transistors were surrounded across the differential pairs on both of the a
 
 Interdigitation matching techniques wre used for implementation of both NMOS and PMOS current mirrors, Interdigitation process ensures to
 Overcome come mismtach in single orientation axis 
-Interdigitation also reqires symmetricity with respect to centree of its axis.
+Interdigitation also reqires symmetricity with respect to centre of its axis.
 
 <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f7d399a9-0ba3-4049-aba5-898b25cbb003" width="500"/>
 
