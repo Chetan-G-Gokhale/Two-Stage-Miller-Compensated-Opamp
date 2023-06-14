@@ -45,7 +45,7 @@ And it should be made sure that the Vds of that transistor is greater than its V
 #### Note : As process variation may affect the Vgs,Vt and other parameters of transistors ,It is to be ensured that the current mirrors are taken utmost care, especially the diode connected transistor , Therfore techniques such as interdigitation methodology are implemented during layout .
 <br>
 
-## Current mirror as finite ouputput impedance 
+## Current mirror as finite ouput impedance 
 
 We can recall from the common source amplifier that the gain obtained was Av=-gmRD , so if we need to maximize the gain of the amp then it should be made 
 sure by choosing Rd such that the transistor reamains in saturation.
