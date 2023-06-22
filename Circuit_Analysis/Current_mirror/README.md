@@ -17,7 +17,7 @@ so therefore the current flowing through the capcitor is ID-I0 <br> <br>
 
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/14f795fc-d4a1-4bef-909f-f45f537fb6fa" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/b26a0dd4-2a88-40c8-8548-5d039a483959" width="400"/>
 
 <br>
 <br>
@@ -54,7 +54,7 @@ Now the diode connected transistor provides and a high output impedance that is 
 Let us find out the Output impedance of the diode connected transistor by providing a voltage supply at the output and measuring the current.
 
 <br>
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/635632fa-c3cf-4bae-8f17-3b4e29690991" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/dd8a2304-c5ba-4aea-9ce9-b515ad55bec9" width="400"/>
 <br>
 <br>
 
