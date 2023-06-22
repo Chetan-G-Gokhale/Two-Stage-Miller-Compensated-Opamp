@@ -7,7 +7,7 @@ For the design formulas of the transistors I referred to textbook by P. Allen an
 
 I have given the complete detailed Circuit analysis of the opamp in the below folder --->
 
- ## [CIRCUIT ANALYSIS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/a7e6dc1db5b0d7c6e0652ee6a39ef51033dff6da/Circuit_Analysis) 
+ # [CIRCUIT ANALYSIS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/main/Circuit_Analysis#table-of-contents) 
 <br>
 <br>
 
