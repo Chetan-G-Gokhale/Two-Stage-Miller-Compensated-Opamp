@@ -53,11 +53,11 @@ Cl (Load Capacitance) = 1pF <br>
   
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/54b222ec-8b71-490f-b21c-a0050bbb1263">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f34772fe-43dc-4bb0-992b-8d23ba6d6120">
 </p>
 <br>
 
- ### Note: <br> Initially the phase margin obtained for 5pF was not in a satisfactory range. <br>  Therefore I added a resistor in feedback so it can bring back RHP Zero to some extent. <br> I decided the value of resistor by running a simple AC analysis. However,This is not a conventional method of designing a nulling resistor
+ #### Note: <br>Initially the phase margin obtained for 5pF was not in a satisfactory range. <br>  Therefore I added a resistor in feedback so it can bring back RHP Zero to some extent. <br> I decided the value of resistor by running a simple AC analysis. However,This is not a conventional method of designing a nulling resistor
 
 # Gain and Phase margin 
 
@@ -73,7 +73,7 @@ for the designed specification: <br>
  <br>
  
  <p align="center">
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/15b2efb6-d5e6-4fb8-85fb-7576c91c262a">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/159354a3-4973-4b09-be77-d2537d74a2e3">
 </p>
 <br>
 
@@ -84,7 +84,7 @@ As the load essentially increases the frequency of operation of the design reduc
 So I replaced the Capactive load to 5pf to measure the phase margin and GBW of the opamp 
 
 <p align="center">
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/c00b35f4-ed17-4850-8fe9-fa28f9fc7c31">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/cc7e2996-990b-44ce-8ee2-dd0a5a62b60d">
 </p>
 <br>
 With the help of AC analysis we can see that with greater load the gain remains the same however the unity gain bandwidth is decreased From 23M Hz to 18M Hz.
@@ -108,7 +108,7 @@ With the help of AC analysis we can see that with greater load the gain remains 
   To find the slew rate first we need to implement a regular voltage follower as shown below  :
   <br>
   <p align="center">
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7079777f-fed8-4982-b1b1-391da57d171a">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/46fcf50b-0cf0-461f-b7cc-07f943a44106">
 </p>
 
 
@@ -119,7 +119,7 @@ With the help of AC analysis we can see that with greater load the gain remains 
   We can find the slew rate of opamp with the help of transient analysis by calculating the rate of change of output with the help of waveforms obtained 
   <br>
   <p align="center">
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/d52a9160-5d2b-4115-af85-9ce9bbaa3e13">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/796193a4-8b01-454e-b43a-9be9d051ec22">
 </p>
  
 
@@ -151,12 +151,14 @@ With the help of AC analysis we can see that with greater load the gain remains 
   <br>
 
   <p align="center">
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/d87f95e5-cc9e-40b9-b785-20d1489b6044">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/05d36b0a-feed-49ba-bb51-7af47124ef35">
 </p>
- 
+
+ <br>
+ <br>
 
 <p align="center">
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/d9351dcd-0bcf-4e9d-88fd-1e8f9a4fe3f5">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/93e637c2-47c4-4339-9d92-d6c6a44feca0">
 </p>
 
 
@@ -188,7 +190,7 @@ and comparator produces an output +Vsat or -Vast relative to inputs (Vp-Vn)
 
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7a5e5246-d3b0-4d58-89a9-0f61d8bdc3c2">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f1384cb7-86fe-4296-96da-35f9bf38a259">
 </p>
 <br>
 
@@ -196,7 +198,7 @@ Circuit shows a voltage follower on the first stage followed by a comparator sta
 
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/4802f107-a770-4380-87e1-28a041c675bd">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/51738d00-3162-4c97-8c04-91cdbe569295">
 </p>
 <br>
 
@@ -209,7 +211,7 @@ Non Inverting integrator circuit explaination is easily available online, Please
 
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/d7fbedab-7797-4c35-a340-e2192163a25b">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/e13f639b-4b41-41a2-899b-3ad20bc494d1">
 </p>
 <br>
 <br>
@@ -218,7 +220,7 @@ Waveform obtained : <br>
 
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/494b4f79-e5b2-4cf0-bf3c-071b35c4eb68">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/015689b9-3652-4649-9910-629d87a4c416">
 </p>
 <br>
 
@@ -251,7 +253,7 @@ The Block level implementation of the common centroid method used was as below <
 
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/51f5f927-f278-44f1-a5a5-9bcbb9a1f258" width="500"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/07c115d7-cdeb-4548-878e-01f6e19f9b79" width="500"/>
 <br>
 <br>
 If $ is the process variation which occurs ,considering it across both the axis tranistor A and B can have a process variation of upto 7$ ,
@@ -274,7 +276,7 @@ Interdigitation matching techniques wre used for implementation of both NMOS and
 Overcome come mismtach in single orientation axis 
 Interdigitation also reqires symmetricity with respect to centre of its axis.
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f7d399a9-0ba3-4049-aba5-898b25cbb003" width="500"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/61d40a04-c909-4eb2-ba1a-14f62fcd66f8" width="500"/>
 
 <br>
 <br>
@@ -289,31 +291,32 @@ Dummy transistors were added at the end of each of side of the current mirrorsto
 
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/dc779fc2-efa3-450a-8259-5cf867c70fd4" width="1000" height="230">
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3cda761e-2644-409d-8ab0-194e7eea9e08" width="1000" height="230">
 
 <br>
 
 #### NMOS current mirror
 
 <br>
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/29abd362-3c08-4251-8b81-28ed30f1d436)" width="1000"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/ea4212c6-460e-4ca5-85a4-92568616787f" width="1000"/>
 
 
 # FINAL LAYOUT
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/bc9b6b71-54fa-410d-8b36-153d54d1a07c)" width="1000"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/a9ee0d3f-0f9e-4b75-89e2-3202d1c70488)
+" width="1000"/>
     
     
 # DRC and LVS Check
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7394f472-a417-4711-bfcb-ceb9390d44f7)" width="1000"/>
+<img src="(https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/41a6a084-2245-4674-b557-988d92d38590)" width="1000"/>
 <br>
 <br>
 <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3635a949-701b-47f0-8075-95acd1e2bb6f)" width="1000"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f2b3f708-6134-4ed1-9130-3881e30f8b33)" width="1000"/>
 
 
 
