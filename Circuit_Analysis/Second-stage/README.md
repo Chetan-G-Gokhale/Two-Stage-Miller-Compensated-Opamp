@@ -5,7 +5,7 @@ However if there is a Load or parasitic capacitance present at the output termin
 Let us look at how the load capacitance affects single stage opamp(differntial pair) <br>
 
 
-   <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/6ed462a7-ad36-4b7b-a299-c3da1950a56c" width="750" height="750">
+   <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/dba355b5-2ec9-4480-8e25-40d67a8fea0f" width="750" height="750">
 
 
 
@@ -25,7 +25,7 @@ Miller compensation is a technique used in electronic circuit design to stabiliz
 Let us look at how the Miller Compensation works by considering the circuit as given below : <br>
 
 
-   <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/73288a22-10b4-4106-b67a-00abef865741" width="500" height="750">
+   <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/8fdf02b0-178f-4c2e-a80c-3715104cf934" width="500" height="750">
 
 
 
@@ -44,24 +44,24 @@ Now that we know how Miller effect works , Let us look into how the Miller capac
 
 <table>
   <tr>
-     <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/b1692960-52db-4bc2-a435-142eb2569259" width=360 height=620></td>
-    <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/57349daf-83c4-45ce-82a2-584823fdf122" width=360 height=620></td>
+     <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/9c4ce510-bdc5-4fb7-956c-8ec3c225ade1" width=360 height=620></td>
+    <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/6bb09b2c-36e3-4240-822e-14137fdc94c0" width=360 height=620></td>
      
   </tr>
   <tr>
-     <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/517ea2b9-44a2-4231-afbf-b2bb8c287f12" width=360 height=620></td>
-    <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/4446216a-0dc9-44a3-a30d-f8db61e014a8" width=360 height=620></td>
+     <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/c73fbe2a-6601-41a0-a97d-0d02d72fd313" width=360 height=620></td>
+    <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3f0e5e60-3608-4195-9b76-a9028fa5e7f1" width=360 height=620></td>
     
   
  </tr>
 </table>
 
 
-# Here are the comparsion of Two Stage Opamp vs a Miller Compesnated Opamp 
+## Here is the comparsion of Two Stage Opamp vs a Miller Compesnated Opamp 
 
 
 
- <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/78b9bac6-331f-4121-9cc5-e734b9775802" width="500" height="750">
+ <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f7e6f456-511a-4939-8287-ba5d2546d9af" width="500" height="750">
 
  <br>
  It is clear from the above approximate bode plot that Miller compesnation provides a higher bandwidth and a good phase margin by the concept of pole spliting
