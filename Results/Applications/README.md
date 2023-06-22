@@ -10,7 +10,7 @@ and comparator produces an output +Vsat or -Vast relative to inputs (Vp-Vn)
 
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7a5e5246-d3b0-4d58-89a9-0f61d8bdc3c2">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f1384cb7-86fe-4296-96da-35f9bf38a259">
 </p>
 <br>
 
@@ -18,7 +18,7 @@ Circuit shows a voltage follower on the first stage followed by a comparator sta
 
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/4802f107-a770-4380-87e1-28a041c675bd">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/51738d00-3162-4c97-8c04-91cdbe569295">
 </p>
 <br>
 
@@ -31,7 +31,7 @@ Non Inverting integrator circuit explaination is easily available online, Please
 
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/d7fbedab-7797-4c35-a340-e2192163a25b">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/e13f639b-4b41-41a2-899b-3ad20bc494d1">
 </p>
 <br>
 <br>
@@ -40,8 +40,6 @@ Waveform obtained : <br>
 
 <p align="center">
   
-  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/494b4f79-e5b2-4cf0-bf3c-071b35c4eb68">
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/015689b9-3652-4649-9910-629d87a4c416">
 </p>
 <br>
-
-
