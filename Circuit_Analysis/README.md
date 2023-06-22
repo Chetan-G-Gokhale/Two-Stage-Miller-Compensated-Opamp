@@ -1,4 +1,4 @@
-This Folder Contains the Circuit analysis and detailed explaination of opamp
+![2023_06_22 23_18 Office Lens (2)](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/341729d9-9073-4019-b744-f649e8c70a8a)This Folder Contains the Circuit analysis and detailed explaination of opamp
 
 Table of contents
 =================
@@ -18,7 +18,7 @@ Given that the ideal op amp has infinite gain and infinite input impedance, our 
 Therefore we use a common source amplifier because of its high gain and infinite input impedance rather than common drain or common gate <br><br>
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/c457b577-a86b-4909-8fe4-ef02d3493089" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f6a76af0-224c-439d-af74-917619c78530" width="400"/>
 <br>
 <br>
 
@@ -30,7 +30,7 @@ However there are other methodologies to build common source amplifier using fee
 The feedback technique used for the opamp is source feedback bias , This ensures that the current flowing through the transistor
 is as per requirement by self calibration of Vgs of the transistor <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f242c89f-0a40-4f5d-b524-2440d31d208d" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/eed418e8-3194-418e-8565-20cb706b62cb" width="400"/>
 <br>
 <br>
 This is a small example of the source feedback CS AMP, As we can see the voltage across current source sets such that effective Vgs is maintained
@@ -44,7 +44,7 @@ So now that we know about common source amplifier using source feedback bias, le
 #### A differntial pair is a circuit whose ouput is proportional to difference between the inputs. As opamp is a device whose ouput is directly proporational to its input ,Therefore differntial Pair is a necessary for design of opamp.
 Let us consider 2 signals Vp and Vn and apply to two different CS AMP with source feedback bias. <br> <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3fa051ef-608b-4eef-aa4e-451967f50e53" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/1371e2fe-28fd-4875-a2ec-cacb8cabae5a" width="400"/>
 <br>
 <br>
 
@@ -52,7 +52,9 @@ Consider both the transistors and resistance are identical a current of IO flows
 By performing small signal realization of the circuit it is noted that when the output is measured across each of the 
 transistors it is directly proporational to difference between the inputs. <br> <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/eef8837b-3d78-4332-a3c5-bc1ce5557092" width="400"/> <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/88bde794-bc11-4e3f-9be3-59ae7a703a31" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/5a1ca1d6-36b4-4f8c-b936-9b9030378e36" width="400"/>
+<br>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7b565087-ed6c-431a-a62e-0c0834e372ab" width="400"/>
 <br>
 <br>
 
@@ -75,7 +77,7 @@ Let us find the common mode gain by applying common mode inputs to the two termi
 The node voltage Vx=Vcm because os the symmetric nature of the circuit. <br>
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/2f8c3426-0541-4133-a1fc-e5a06182d927" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3d16ab06-82ae-493c-a750-08fd62d30ac3" width="400"/>
 <br>
 <br>
 Thus by small signal analysis it is confirmed that Common mode gain Av(CM) of the differntial pair is zero which resembles the characteristic of opamp.
@@ -87,7 +89,7 @@ As the diffferntial voltage at terminal Vn is negative, as the same current is f
 ie Vx=0. <br> <br>
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7c71f0a7-4277-45f2-9581-216c41f3fc15" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/598eba44-a521-47c1-80d5-7f70a7689476" width="400"/>
 <br>
 <br>
 
@@ -114,7 +116,7 @@ so therefore the current flowing through the capcitor is ID-I0 <br> <br>
 
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/14f795fc-d4a1-4bef-909f-f45f537fb6fa" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/b26a0dd4-2a88-40c8-8548-5d039a483959" width="400"/>
 
 <br>
 <br>
@@ -151,7 +153,7 @@ Now the diode connected transistor provides and a high output impedance that is 
 Let us find out the Output impedance of the diode connected transistor by providing a voltage supply at the output and measuring the current.
 
 <br>
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/635632fa-c3cf-4bae-8f17-3b4e29690991" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/dd8a2304-c5ba-4aea-9ce9-b515ad55bec9" width="400"/>
 <br>
 <br>
 
@@ -167,7 +169,7 @@ However if there is a Load or parasitic capacitance present at the output termin
 Let us look at how the load capacitance affects single stage opamp(differntial pair) <br>
 
 
-   <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/6ed462a7-ad36-4b7b-a299-c3da1950a56c" width="750" height="750">
+   <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/dba355b5-2ec9-4480-8e25-40d67a8fea0f" width="750" height="750">
 
 
 
@@ -187,7 +189,7 @@ Miller compensation is a technique used in electronic circuit design to stabiliz
 Let us look at how the Miller Compensation works by considering the circuit as given below : <br>
 
 
-   <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/73288a22-10b4-4106-b67a-00abef865741" width="500" height="750">
+   <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/8fdf02b0-178f-4c2e-a80c-3715104cf934" width="500" height="750">
 
 
 
@@ -206,24 +208,24 @@ Now that we know how Miller effect works , Let us look into how the Miller capac
 
 <table>
   <tr>
-     <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/b1692960-52db-4bc2-a435-142eb2569259" width=360 height=620></td>
-    <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/57349daf-83c4-45ce-82a2-584823fdf122" width=360 height=620></td>
+     <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/9c4ce510-bdc5-4fb7-956c-8ec3c225ade1" width=360 height=620></td>
+    <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/6bb09b2c-36e3-4240-822e-14137fdc94c0" width=360 height=620></td>
      
   </tr>
   <tr>
-     <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/517ea2b9-44a2-4231-afbf-b2bb8c287f12" width=360 height=620></td>
-    <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/4446216a-0dc9-44a3-a30d-f8db61e014a8" width=360 height=620></td>
+     <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/c73fbe2a-6601-41a0-a97d-0d02d72fd313" width=360 height=620></td>
+    <td><img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3f0e5e60-3608-4195-9b76-a9028fa5e7f1" width=360 height=620></td>
     
   
  </tr>
 </table>
 
 
-# Here are the comparsion of Two Stage Opamp vs a Miller Compesnated Opamp 
+## Here is the comparsion of Two Stage Opamp vs a Miller Compesnated Opamp 
 
 
 
- <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/78b9bac6-331f-4121-9cc5-e734b9775802" width="500" height="750">
+ <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f7e6f456-511a-4939-8287-ba5d2546d9af" width="500" height="750">
 
  <br>
  It is clear from the above approximate bode plot that Miller compesnation provides a higher bandwidth and a good phase margin by the concept of pole spliting
