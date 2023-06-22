@@ -4,7 +4,7 @@ Given that the ideal op amp has infinite gain and infinite input impedance, our 
 Therefore we use a common source amplifier because of its high gain and infinite input impedance rather than common drain or common gate <br><br>
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/c457b577-a86b-4909-8fe4-ef02d3493089" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f6a76af0-224c-439d-af74-917619c78530" width="400"/>
 <br>
 <br>
 
@@ -16,7 +16,7 @@ However there are other methodologies to build common source amplifier using fee
 The feedback technique used for the opamp is source feedback bias , This ensures that the current flowing through the transistor
 is as per requirement by self calibration of Vgs of the transistor <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f242c89f-0a40-4f5d-b524-2440d31d208d" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/eed418e8-3194-418e-8565-20cb706b62cb" width="400"/>
 <br>
 <br>
 This is a small example of the source feedback CS AMP, As we can see the voltage across current source sets such that effective Vgs is maintained
@@ -30,7 +30,7 @@ So now that we know about common source amplifier using source feedback bias, le
 #### A differntial pair is a circuit whose ouput is proportional to difference between the inputs. As opamp is a device whose ouput is directly proporational to its input ,Therefore differntial Pair is a necessary for design of opamp.
 Let us consider 2 signals Vp and Vn and apply to two different CS AMP with source feedback bias. <br> <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3fa051ef-608b-4eef-aa4e-451967f50e53" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/1371e2fe-28fd-4875-a2ec-cacb8cabae5a" width="400"/>
 <br>
 <br>
 
@@ -38,7 +38,9 @@ Consider both the transistors and resistance are identical a current of IO flows
 By performing small signal realization of the circuit it is noted that when the output is measured across each of the 
 transistors it is directly proporational to difference between the inputs. <br> <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/eef8837b-3d78-4332-a3c5-bc1ce5557092" width="400"/> <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/88bde794-bc11-4e3f-9be3-59ae7a703a31" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/5a1ca1d6-36b4-4f8c-b936-9b9030378e36" width="400"/>
+<br>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7b565087-ed6c-431a-a62e-0c0834e372ab" width="400"/>
 <br>
 <br>
 
@@ -61,7 +63,7 @@ Let us find the common mode gain by applying common mode inputs to the two termi
 The node voltage Vx=Vcm because os the symmetric nature of the circuit. <br>
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/2f8c3426-0541-4133-a1fc-e5a06182d927" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3d16ab06-82ae-493c-a750-08fd62d30ac3" width="400"/>
 <br>
 <br>
 Thus by small signal analysis it is confirmed that Common mode gain Av(CM) of the differntial pair is zero which resembles the characteristic of opamp.
@@ -73,9 +75,8 @@ As the diffferntial voltage at terminal Vn is negative, as the same current is f
 ie Vx=0. <br> <br>
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7c71f0a7-4277-45f2-9581-216c41f3fc15" width="400"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/598eba44-a521-47c1-80d5-7f70a7689476" width="400"/>
 <br>
 <br>
 
 So by small signal analysis, The differntial mode gain < Av(DM)=2gmRD.> which can be made high by ensuring that both transistor remains in saturation region 
-
