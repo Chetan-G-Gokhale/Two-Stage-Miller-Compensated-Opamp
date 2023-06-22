@@ -265,7 +265,7 @@ The differntial pair was surrounded by a P-tap Guard Ring Across it and waas con
 Dummy transistors were surrounded across the differential pairs on both of the axis, to further protect from process variation.
 <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/20c46a97-658f-49af-b1e2-399d5d9bcabb" width="500"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f20e777b-564a-4347-bf68-e6b5f2771c95" width="500"/>
 
 <br>
 <br>
@@ -304,19 +304,18 @@ Dummy transistors were added at the end of each of side of the current mirrorsto
 # FINAL LAYOUT
 
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/a9ee0d3f-0f9e-4b75-89e2-3202d1c70488)
-" width="1000"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/a9ee0d3f-0f9e-4b75-89e2-3202d1c70488)" width="1000"/>
     
     
 # DRC and LVS Check
 
 
-<img src="(https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/41a6a084-2245-4674-b557-988d92d38590)" width="1000"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/41a6a084-2245-4674-b557-988d92d38590" width="1000"/>
 <br>
 <br>
 <br>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f2b3f708-6134-4ed1-9130-3881e30f8b33)" width="1000"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/f2b3f708-6134-4ed1-9130-3881e30f8b33" width="1000"/>
 
 
 
