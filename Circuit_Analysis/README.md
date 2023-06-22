@@ -1,4 +1,4 @@
-![2023_06_22 23_18 Office Lens (2)](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/341729d9-9073-4019-b744-f649e8c70a8a)This Folder Contains the Circuit analysis and detailed explaination of opamp
+This Folder Contains the Circuit analysis and detailed explaination of opamp
 
 Table of contents
 =================
