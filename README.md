@@ -5,9 +5,9 @@ This is my first significant project in cadence, completed in my third year of B
 
 For the design formulas of the transistors I referred to textbook by P. Allen and D. Holberg,"CMOS Analog Circuit Design",The Oxford Series in Electrical and Computer Engineering, 3rd ed these are easily available online
 
-I have given the complete detailed Circuit analysis of the opamp in the below folder --->
+# I have given the complete detailed Circuit analysis of the opamp in this folder --->  [CIRCUIT ANALYSIS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/main/Circuit_Analysis#table-of-contents) 
 
- # [CIRCUIT ANALYSIS](https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/tree/main/Circuit_Analysis#table-of-contents) 
+
 <br>
 <br>
 
