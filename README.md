@@ -252,8 +252,8 @@ The Block level implementation of the common centroid method used was as below <
 <br>
 
 
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/61d40a04-c909-4eb2-ba1a-14f62fcd66f8" width="500"/>
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/07c115d7-cdeb-4548-878e-01f6e19f9b79" width="500"/>
 <br>
 <br>
 If $ is the process variation which occurs ,considering it across both the axis tranistor A and B can have a process variation of upto 7$ ,
@@ -276,7 +276,7 @@ Interdigitation matching techniques wre used for implementation of both NMOS and
 Overcome come mismtach in single orientation axis 
 Interdigitation also reqires symmetricity with respect to centre of its axis.
 
-<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/61d40a04-c909-4eb2-ba1a-14f62fcd66f8" width="500"/>
+<img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/07c115d7-cdeb-4548-878e-01f6e19f9b79" width="500"/>
 
 <br>
 <br>
