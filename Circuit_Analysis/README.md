@@ -58,7 +58,7 @@ transistors it is directly proporational to difference between the inputs. <br> 
 <br>
 <br>
 
-#### By small signal model it is confirmed that Vo= gmRD*(Vp-Vn)/2 with its effective gain of  *Av*=*gmRD/2* <br> <br>
+### Small Correction : By small signal model it is confirmed that Vo= gmRD*(Vp-Vn) with its effective gain of  *Av*=*gmRD* <br> <br>
 
 # Commom Mode gain and Differntial Mode Gain
 
@@ -93,7 +93,7 @@ ie Vx=0. <br> <br>
 <br>
 <br>
 
-So by small signal analysis, The differntial mode gain < Av(DM)=2gmRD.> which can be made high by ensuring that both transistor remains in saturation region 
+### Small Correction : So by small signal analysis, The differntial mode gain < Av(DM)=gmRD.> which can be made high by ensuring that both transistor remains in saturation region 
 
 
 
