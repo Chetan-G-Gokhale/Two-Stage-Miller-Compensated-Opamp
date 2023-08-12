@@ -202,6 +202,24 @@ Circuit shows a voltage follower on the first stage followed by a comparator sta
 </p>
 <br>
 
+### R2R DAC CIRCUIT
+
+Implementation and veification of 4bit R2R DAC was done using th e designed opamp and was tested for it working with the help of waveforms by running a transient analysis 
+
+<p align="center">
+  
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/3b31d03b-c5a8-4512-8d1e-347cd9e5133f)">
+</p>
+<br>
+<br>
+Waveform obtained : <br>
+<br>
+
+<p align="center">
+  
+  <img src="https://github.com/Chetan-G-Gokhale/Two-Stage-Miller-Compensated-Opamp/assets/126239004/7bd29708-ffda-44fe-af66-d098c1e8747f)">
+</p>
+<br>
 
 ### NON INVERTING INTEGRATOR
 
